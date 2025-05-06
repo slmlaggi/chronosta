@@ -1,0 +1,16 @@
+[project]
+name = "chronosta"
+version = "0.1.0"
+description = "A time-bending platformer game built with pygame-ce"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame-ce>=2.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort",
+    "mypy"
+]
